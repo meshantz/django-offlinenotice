@@ -7,9 +7,9 @@ maintenance in the near future.
 
 To install::
 
-    pip install https://github.com/<username>/django-offlinenotice.git
+    pip install https://github.com/meshantz/django-offlinenotice.git
 
-Then add the ``offlinenotice`` to your installed apps. ::
+Then add ``offlinenotice`` to your installed apps. ::
 
     INSTALLED_APPS = (
         ...
