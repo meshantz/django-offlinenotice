@@ -1,0 +1,5 @@
+include CHANGELOG
+include MANIFEST.in
+include README
+recursive-include offlinenotice/templates *
+recursive-include offlinenotice/static *
