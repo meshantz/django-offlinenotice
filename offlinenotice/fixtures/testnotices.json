@@ -1,0 +1,24 @@
+[
+  {
+    "pk": 1, 
+    "model": "offlinenotice.notice", 
+    "fields": {
+      "message": "this has been a test", 
+      "message_html": "<p>this has been a test</p>\n", 
+      "enabled": true, 
+      "slug": "testable", 
+      "title": "testable"
+    }
+  },
+  {
+    "pk": 2, 
+    "model": "offlinenotice.notice", 
+    "fields": {
+      "message": "this has been a test", 
+      "message_html": "<p>this has been a test</p>\n", 
+      "enabled": false, 
+      "slug": "diabledtest", 
+      "title": "diabledtest"
+    }
+  }
+]

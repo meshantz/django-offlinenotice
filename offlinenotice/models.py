@@ -14,7 +14,8 @@ class Notice(models.Model):
         super(Notice, self).save(*args, **kwargs)
 
     def tag(self):
-        return u'{%% %(tagname)s %(slug)s %%}' % {
+        from templatetags.notice import notice
+        return u'{%% %(tagname)s "%(slug)s" %%}' % {
             'slug': self.slug,
-            'tagname': 'notice',
+            'tagname': notice.__name__,
         }
